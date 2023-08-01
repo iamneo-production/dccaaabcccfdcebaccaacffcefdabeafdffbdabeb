@@ -1,12 +1,12 @@
-export function filterOdd(...elements) {
+export default function filterOdd(...elements) {
     return elements.filter((x) => x % 2 !== 0);
 }
 
-export function filterEven(...elements) {
+export default function filterEven(...elements) {
     return elements.filter((x) => x % 2 === 0);
 }
 
-export function generateRandomList(n = 7) {
+export default function generateRandomList(n = 7) {
     let a = [];
     for (let i = 0; i < n; i++) {
         let x = Math.floor(Math.random() * 100 + 1);
