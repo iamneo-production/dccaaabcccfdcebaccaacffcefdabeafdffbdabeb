@@ -1,12 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
-import {generateRandomList} 
+import {generateRandomList} from './functions/filterOddEven'
 
 function App() {
   return (
     <div className="App">
       <div>
-        
+        {/* <p>{generateRandomList(3)}</p> */}
       </div>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
